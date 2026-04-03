@@ -21,7 +21,9 @@ header {
     background-color: white;
     border-radius: 15px;
     box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+
 }
+
 
 h1 {
     font-size: 2em;
@@ -33,4 +35,15 @@ p {
     font-size: 1.1em;
     line-height: 1.8;
     color: #333;
+    text-align: justify;
 }
+.mi-imagen {
+    width: 115px;
+    display: block;
+    margin: 0 auto;
+}
+h3{
+    text-align: center;
+    color:gray;
+}
+
