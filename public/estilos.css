@@ -1,63 +1,65 @@
 body {
-    background-color: #f0f4ff;
-    color: #1a1a2e;
+    background-color: #0d0d0d;
+    color: #c0c0c0;
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
 }
 
 header {
-    background-color: #4a4a85;
-    color: rgb(141, 140, 144);
+    background-color: #1a1a1a;
+    color: #00e5cc;
     padding: 20px;
     text-align: center;
-    border-radius: 75px;
+    border-radius: 67px;
 }
 
 .contenedor {
     max-width: 800px;
     margin: 50px auto;
     padding: 40px;
-    background-color: white;
+    background-color: #1a1a1a;
     border-radius: 15px;
-    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
-
+    box-shadow: 0 4px 20px rgba(0,0,0,0.3);
 }
-
 
 h1 {
     font-size: 2em;
-    color: #a29cfb;
+    color: #00e5cc;
     margin-bottom: 20px;
-
 }
 
 p {
     font-size: 1.1em;
     line-height: 1.8;
-    color: #333;
+    color: #d6d5d5;
     text-align: justify;
 }
+
 .mi-imagen {
-    width: 115px;
+    width: 150px;
     display: block;
     margin: 0 auto;
 }
-h3{
+
+h3 {
     text-align: center;
-    color:gray;
+    color: #00e5cc;
 }
+
 .mi-boton {
-    background-color: #3a0ca3;
-    color: white;
-    padding: 10px 20px;
+    background-color: #00e5cc;
+    color: #0d0d0d;
+    padding: 10px 25px;
     border: none;
-    border-radius: 5px;
-    cursor: pointer;
+    border-radius: 25px;
     font-size: 1em;
+    cursor: pointer;
     display: block;
     margin: 0 auto;
 }
+
 .mi-boton:hover {
-    background-color: #a29cfb;
+    background-color: #1a1a1a;
+    color: #00e5cc;
 }
