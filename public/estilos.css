@@ -1,65 +1,98 @@
+
 body {
-    background-color: #0d0d0d;
-    color: #c0c0c0;
+    background-image: url("https://img.freepik.com/vector-premium/fondo-geometrico-blanco-gris-moderno-patron-costuras_322978-705.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #000000;
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
 }
-
 header {
-    background-color: #1a1a1a;
-    color: #00e5cc;
-    padding: 20px;
+    background-color: #ffffff;
+    color: #AB1748;
+    padding: 30px;
     text-align: center;
-    border-radius: 15px;
 }
 
 .contenedor {
     max-width: 800px;
-    margin: 50px auto;
+    margin: 40px auto;
     padding: 40px;
-    background-color: #1a1a1a;
+    background-color: #ffffff;
     border-radius: 15px;
-    box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+    box-shadow: 0 2px 15px rgba(0,0,0,0.1);
 }
 
 h1 {
     font-size: 2em;
-    color: #00e5cc;
+    color: #AB1748;
     margin-bottom: 20px;
+    border-bottom: 3px solid hsl(340, 76%, 38%);
+    padding-bottom: 10px;
 }
 
 p {
     font-size: 1.1em;
     line-height: 1.8;
-    color: #d6d5d5;
-    text-align:center;
+    color: #333333;
+    text-align: justify;
 }
 
 .mi-imagen {
-    width: 150px;
+    width: 300px;
     display: block;
-    margin: 0 auto;
+    margin: 20px auto;
+    border-radius: 10px;
 }
 
 h3 {
     text-align: center;
-    color: #00e5cc;
+    color: #AB1748;
 }
 
 .mi-boton {
-    background-color: #00e5cc;
-    color: #0d0d0d;
-    padding: 10px 25px;
+    background-color: #AB1748;
+    color: #ffffff;
+    padding: 12px 30px;
     border: none;
-    border-radius: 25px;
+    border-radius: 5px;
     font-size: 1em;
     cursor: pointer;
     display: block;
-    margin: 0 auto;
+    margin: 20px auto;
 }
 
 .mi-boton:hover {
-    background-color: #1a1a1a;
-    color: #00e5cc;
+    background-color: #8a1039;
+    color: #ffffff;
+}
+
+li {
+    line-height: 2;
+    color: #333333;
+}
+.navbar {
+    background-color: #AB1748;
+    padding: 15px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px;
+}
+
+.navbar a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: bold;
+    padding: 5px 12px;
+    background: rgba(255,255,255,0.15);
+    border-radius: 20px;
+}
+
+.navbar a:hover {
+    background: rgba(255,255,255,0.3);
 }
